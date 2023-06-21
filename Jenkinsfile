@@ -16,6 +16,10 @@ pipeline {
 			steps {
 				echo 'Deploying....'
 			}
+		stage('Arnold UAT') {
+			steps {
+				echo 'Validating....'
+			}
 		}
 	}
 }
