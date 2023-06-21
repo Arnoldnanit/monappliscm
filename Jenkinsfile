@@ -18,7 +18,7 @@ pipeline {
 			}
 			}
 			
-		stage('ArnoldUat') {
+		stage('Arnold Reception') {
 			steps {
 				echo 'Validating....'
 			}
